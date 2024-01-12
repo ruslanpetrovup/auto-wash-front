@@ -1,0 +1,21 @@
+.not-found {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0F84F0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-title {
+        font-size: 70px;
+        font-weight: 700;
+    }
+    &-second {
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
